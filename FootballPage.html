@@ -1,0 +1,163 @@
+<html>
+
+<head>
+    <title>BettingX</title>
+    <link rel="stylesheet" href="dropdownstyle.css">
+    <!--Gigachad CSS-->
+    <style type=text/css>
+        html {
+            height: -web-fill-available;
+        }
+
+        body {
+            height: -web-fill-available;
+            background-color: #403e3f;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+
+        }
+
+        .searchbar {
+            position: absolute;
+            left: 0px;
+            top: 220px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .searchbar input {
+            height: 70px;
+            width: 1300px;
+        }
+    </style>
+</head>
+<!--Div Class and other Items-->
+
+<body>
+    <div class="banner">
+        <div>
+            <div id="logo" style="position:relative; left:123px; top:60px;">
+                <img src="Xlogo.png" alt="BettingXLogo" width="190" height="190">
+            </div>
+            <div id="searchbar" class="searchbar">
+                <input type="text" placeholder="Search...">
+            </div>
+            <br>
+            <div id="banner" style="position:relative; left:450px; top:-340px;">
+                <img src="Xbanner.png" alt="BettingXBanner" width="600" height="600">
+            </div>
+        </div>
+    </div>
+    <div class="container" style="position:relative; left:600px; top:-230px;">
+        <button class="click"><img src="threelineicon.png"
+                style="position: relative; left:-40px; top:-55px; width:250px; height:250px;"></button>
+        <div class="list">
+            <!--button class="links">Home</button>
+            <button class="links">History</button>
+            <button class="links">UFC</button>
+            <button class="links">Boxing</button>
+            <button class="links">Football</button>
+            <button class="links">Cricket</button>
+            <button class="links">Login</button>
+            <button class="links">FAQ</button>
+            <button class="links">Customer Service</button-->
+            <a href="BettingXHome.html" class="links">Home</a>
+            <a href="BettingXHistory.html" class="links">History</a>
+            <a href="UFCPage.html" class="links">UFC</a>
+            <a href="BoxingPage.html" class="links">Boxing</a>
+            <a href="FootballPage.html" class="links">Football</a>
+            <a href="CricketPage.html" class="links">Cricket</a>
+            <a href="bettingxregis.html" class="links">Registration</a>
+            <a href="faq.html" class="links">FAQ</a>
+            <a href="CustomerserviceFINISHED.html" class="links">CustomerService</a>
+        </div>
+    </div>
+    <script>
+        let click = document.querySelector('.click');
+        let list = document.querySelector('.list');
+        click.addEventListener("click", () => {
+            list.classList.toggle('newlist');
+        });
+    </script>
+</body>
+
+<div style="position:relative; left:-650px; top:250px;">
+    <img src="Football.png" alt="UFC Logo" width="600" height="500">
+</div>
+
+<style type="text/css">
+    .tg {height: 400px; width: 600px; position:relative; left:-400px; top: 250px;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    .tg td {
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        overflow: hidden;
+        padding: 10px 5px;
+        word-break: normal;
+    }
+
+    .tg th {
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        overflow: hidden;
+        padding: 10px 5px;
+        word-break: normal;
+    }
+
+    .tg .tg-34fe {
+        background-color: #c0c0c0;
+        border-color: inherit;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 30px
+    }
+
+    .tg .tg-zlqz {
+        background-color: #c0c0c0;
+        border-color: inherit;
+        font-weight: bold;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 30px
+    }
+
+    .tg .tg-roi2 {
+        background-color: #c0c0c0;
+        border-color: inherit;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 30px
+    }
+</style>
+<table class="tg">
+    <tbody></tbody>
+        <tr>
+            <th class="tg-zlqz"><span style="font-weight:bold;text-decoration:underline;color:#FE0000;">Live Event</span>
+            </th>
+        </tr>
+        <tr>
+            <td class="tg-roi2"><span style="color:#FFF">Upcoming Event #1</span></td>
+        </tr>
+        <tr>
+            <td class="tg-34fe"><span style="color:#FFF">Upcoming Event #2</span></td>
+        </tr>
+        <tr>
+            <td class="tg-34fe"><span style="color:#FFF">Upcoming Event #3</span></td>
+        </tr>
+    </tbody>
+</table>
+
+</html>

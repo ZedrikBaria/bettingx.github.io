@@ -1,0 +1,60 @@
+/*Styling for the dropdown menu*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 200px;
+    position:relative;
+}
+
+.click {
+    background-color: #403e3f;
+}
+
+.click:hover {
+    background-color: darkgrey;
+}
+
+.click,
+.links {
+    padding: 2px;
+    margin: 100px;
+    font-size: 1.2em;
+    font-family: verdana;
+    border: none;
+    outline: none;
+    height: 10px;
+    width: 200px;
+    color: whitesmoke;
+    transition: 0.3s;
+}
+
+.list {
+    position: absolute;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.3s;
+}
+
+.newlist {
+    transform: scaleY(1);
+}
+
+.links {
+    background-color: gray;
+}
+
+.links:hover {
+    background-color: gray;
+    transform: scale(1.1);
+}
