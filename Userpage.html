@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BettingX</title>
+    <link rel="stylesheet" type="text/css" href="new.css">
+</head>
+
+<body>
+    <div id="logo" style="position:relative;">
+        <img src="Xlogo.png" alt="BettingXLogo" width="220">
+    </div>
+
+    <div id="banner" style="position: absolute; left:490px; top:-190px;">
+        <img src="Xbanner.png" alt="BettingXBanner" width="500">
+    </div>
+
+    <div id="searchbar" class="searchbar">
+        <input type="text" placeholder="Search...">
+    </div>
+
+    <div class="container" style="position:absolute; left:1170px; top:-100px;">
+        <button class="click"><img src="threelineicon.png" style="width:250px; height:250px;"></button>
+        <div id="nav" class="list">
+            <a href="index.html" class="links">Home</a>
+            <a href="BettingXHistoryV2.html" class="links">History</a>
+            <a href="UFCPage.html" class="links">UFC</a>
+            <a href="BoxingPage.html" class="links">Boxing</a>
+            <a href="FootballPage.html" class="links">Football</a>
+            <a href="CricketPage.html" class="links">Cricket</a>
+            <a href="Registration.html" class="links">Registration</a>
+            <a href="FAQ.html" class="links">FAQ</a>
+            <a href="CustomerService.html" class="links">CustomerService</a>
+            <a href="Userpage.html" class="links">Userpage</a>
+        </div>
+    </div>
+
+    <div id="extra">
+        <div id="games">
+
+            <form>
+                <!--userName Input-->
+                <label for="Username" style="color:white;">
+                    New Username:
+                </label><br>
+
+                <input type="text" id="username" name="username" value="" style="width:600px;height:50px;"><br>
+
+                <!--passwd Input-->
+                <label for="passwd" style="color:white;">
+                    New Password:
+                </label><br>
+
+                <input type="text" id="passwd" name="passwd" value="" style="width:600px;height:50px;"><br>
+
+                <!--Email Input-->
+                <label for="email" style="color:white;">
+                    New Email Address:
+                </label><br>
+
+                <input type="email" id="email" name="email" value="" style="width:600px;height:50px;"><br>
+
+                <input type="submit" value="Submit"> <input type="reset" value="Reset">
+            </form>
+            <div style="position:relative;top:-300px;left:500px">
+                <img src="AvatarCircle.png" alt="Avatar Circle" width="530px" height="400px">
+            </div>
+
+            <div style="position:relative; left: 645px; top:-550px;">
+                <img src="Zed.png" alt="Zed" width="200px" height="150px">
+            </div>
+            <form style="position:relative;left:-1400px; top:400px;">
+                <!--userName Input-->
+                <label for="Username" style="color:white;">
+                    Username:
+                </label><br>
+
+                <!--Email Input-->
+                <label for="email" style="color:white;">
+                    Email Address:
+                </label><br>
+
+                <input  style="position:relative; left:100px; top:100px;" type="submit" value="Submit"> <input type="reset" value="Reset"><br>
+            </form>
+        </div>
+    </div>
+        <form style="position:relative; left:920px; top:-480px;">
+            <!--userName-->
+            <label for="Username" style="color:white;">
+                Username: Dovahrik_Bears123
+            </label><br>
+    
+            <!--Email-->
+            <label for="email" style="color:white;">
+                Email Address: codinggigachad@gmail.com
+            </label><br>
+        </form>
+    <footer id="footer">
+        Author: Jester Buenaobra, Jerrick Banaga, Zedrik Baria, Saif Khan
+        Team Name: PseudoGC
+    </footer>
+
+</body>
+
+<script>
+    let click = document.querySelector('.click');
+    let list = document.querySelector('.list');
+    click.addEventListener("click", () => {
+        list.classList.toggle('newlist');
+    });
+</script>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BettingX</title>
+    <link rel="stylesheet" type="text/css" href="new.css">
+</head>
+
+<body>
+<div id="logo" style="position:relative;">
+    <img src="Xlogo.png" alt="BettingXLogo" width="220">
+</div>
+
+<div id="banner" style="position: absolute; left:490px; top:-190px;" >
+    <img src="Xbanner.png" alt="BettingXBanner" width="500">
+</div>
+
+<div id="searchbar" class="searchbar">
+    <input type="text" placeholder="Search...">
+</div>
+
+<div class="container" style="position:absolute; right:350px; top:-100px;">
+    <button class="click"><img src="threelineicon.png" style="width:250px; height:250px;"></button>
+    <div id="nav" class="list">
+        <a href="index.html" class="links">Home</a>
+        <a href="BettingXHistoryV2.html" class="links">History</a>
+        <a href="UFCPage.html" class="links">UFC</a>
+        <a href="BoxingPage.html" class="links">Boxing</a>
+        <a href="FootballPage.html" class="links">Football</a>
+        <a href="CricketPage.html" class="links">Cricket</a>
+        <a href="Registration.html" class="links">Registration</a>
+        <a href="FAQ.html" class="links">FAQ</a>
+        <a href="CustomerService.html" class="links">CustomerService</a>
+        <a href="Userpage.html" class="links">Userpage</a>
+    </div>
+</div>
+    
+<div id="container">
+    <div id="main">
+        <style>
+            h1 {
+                position: absolute;
+                left: 10px;
+                top: 300px;
+            }
+        </style>
+        <style>
+            h2 {
+                position: absolute;
+                top: 375px;
+                left: 10px;
+            }
+
+        </style>
+        <style>
+            h3 {
+                position: absolute;
+                right: 450px;
+            }
+        </style>
+        <h1>
+            <font size="+10"> FAQ</font><br>
+        </h1>
+        <h2>
+            <textarea name="your question here"
+                placeholder="If you have any questions that haven’t been mentioned here please feel to contact us through our customer support via the menu"
+                rows="15" cols="35" readonly></textarea>
+                
+                <input type="submit" value="submit">
+                
+        
+        
+        </h2>
+        <h3>
+        <body>
+            <p>
+                <font size="+10">Frequently asked questions </font><br>
+                <font size="+2">1. How do I navigate through the website?</font><br>
+                <font size="+2">In the top right of your screen next to the search bar you will see <br>
+                    a drop down that will feature all the other pages.</font>
+                <br>
+                <br>
+                <font size="+2">2. How do I register?</font><br>
+                <font size="+2">In order to register you will need to create an account<br>
+                    along with a form of identification ensuring you're above<br> the legal age
+                    to bet.</font>
+                    
+            </p>
+        </body>
+        </h3>
+    </div>
+</div>
+<body>
+
+</body>
+
+<footer id="footer">
+Author: Jester Buenaobra, Jerrick Banaga, Zedrik Baria, Saif Khan
+Team Name: PseudoGC
+</footer>
+
+</body>
+
+
+<script>
+    let click = document.querySelector('.click');
+    let list = document.querySelector('.list');
+    click.addEventListener("click", () => {
+        list.classList.toggle('newlist');
+    });
+</script>
+
+</html>

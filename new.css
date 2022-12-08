@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color:#403e3f;
+}
+
+.searchbar {
+    position: absolute;
+    left: 0px;
+    top: 146px;
+    width: 100%;
+    text-align: center;
+}
+
+.searchbar input {
+    min-height: 70px;
+    width: 1000px;
+}
+
+#extra {
+    min-height: 100%;
+}
+
+#games {
+    overflow: auto;
+    padding-bottom: 100px;
+    position: relative;
+    top: 170px;
+    left: 270px;
+}
+
+#results {
+    overflow: auto;
+    padding-bottom: 100px;
+    position: relative;
+
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    font-family: Verdana;
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+    text-align: center;
+}
+
+.container {
+    width: 100px;
+    position:relative;
+}
+
+.click {
+    background-color: #403e3f;
+}
+
+.click:hover {
+    background-color: darkgrey;
+}
+
+.click,
+.links {
+    padding: 2px;
+    margin: 100px;
+    font-size: 1.2em;
+    font-family: verdana;
+    border: none;
+    outline: none;
+    height: 10px;
+    width: 100px;
+    color: whitesmoke;
+    transition: 0.3s;
+}
+
+.list {
+    position: absolute;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.3s;
+}
+
+.newlist {
+    transform: scaleY(1);
+}
+
+.links {
+    background-color: gray;
+}
+
+.links:hover {
+    background-color: gray;
+    transform: scale(1.1);
+}
+
+#results {
+    background-color:rgb(145, 139, 128);
+    position: relative;
+    top:-250px;
+    left:1000px;
+    text-align:center;
+    font-family:Verdana;
+    width: 200px;
+}
